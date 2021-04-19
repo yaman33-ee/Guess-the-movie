@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet"  type ='text/css'  href= 'style5.css'>
+  <link rel     = "stylesheet" href  = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity = "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin = "anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>All Correct </title>
+</head>
+<body  style=" background-color: #030321;">
+
+<div class="container">
+  <svg viewBox="0 0 960 300">
+    <symbol id="s-text">
+      <text text-anchor="middle" x="50%" y="80%">Game Score </text>
+    </symbol>
+  
+    <g class = "g-ants">
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+    </g>
+  </svg>
+  <br><br><br><br>
+  <div class="row">
+
+  <div  class = " zone col-sm-5 "
+  id="correct" style="margin-top: -120px; margin-left: auto;margin-right: auto;">
+    <img  src   = '#' width = '350px' height = "auto"
+    style = "padding:10px;"  id="correct_images">
+    <br><br>
+    <h4  style = "padding-top:4px;">The Movie Name :
+    <span style = "font-family: fantasy; color:blueviolet" id="correct_mn"> </span>  </h4>
+    <br>
+    <h4   >Your Answer  :
+       <span style = "font-family: fantasy; color:blueviolet" id="p2">  </span>  </h4>
+ 
+    </div>
+
+    
+
+    </div>
+    <div class="button_container">
+      
+      <button class="btn" id="show_results"
+      ><span>Show Result</span></button>
+      <button id="reload_button"
+      style="background-color: aqua;">
+      <i class="fa fa-refresh " style="font-size:24px"></i></button>
+    </div>
+
+    </div>
+    
+
+   
+  </div>
+  <div id="container2" style="display: none;">
+    <div id="success-box">
+      
+      <div class="face">
+        <div class="eye"></div>
+        <div class="eye right"></div>
+        <div class="mouth happy"></div>
+      </div>
+      <div class="shadow scale"></div>
+      <div class="message"><h1 class="alert">Success!</h1><p id="success-line"></p></div>
+      <br><br>
+      <button style="margin-top: 30px; margin-bottom: 40px; margin-left: -10px;"class="button-box" id="stayinpage"><h1 class="green">continue</h1></button>
+    </div>
+    </div>
+    
+
+    
+    <footer  id="footer">
+      <p >Made By <a href="https://codepen.io/juliepark"> Yaman The Control</a> ❤️
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="allcorrect.js"></script>
+</body>
+</html>

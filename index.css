@@ -1,0 +1,54 @@
+body,html{
+	width:100%;
+	height: 100%;
+	
+}
+
+
+.btn-primary {
+	background-color: blueviolet;
+	border-color: #F05F44;
+}
+
+.btn-primary:hover {
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	
+
+}
+.btn{
+	
+	border-radius: 600px;
+	
+
+}
+
+
+
+.movie-image 
+{
+  margin-left: 28%; margin-top:5%" 
+}
+
+
+.movie-input
+{
+  text-align: center;
+}
+
+footer p {
+  color:lightblue;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  margin-left: 10px;
+  font-size: 1em;
+}
+footer a {
+  color: darkblue;
+  text-decoration: underline;
+}
+footer a:hover {
+  color:green;
+
+}
+
